@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0249E5901C24546300BEB6BB /* DataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249E58F1C24546300BEB6BB /* DataGenerator.swift */; };
+		CE12E0741C22CF7200884641 /* ChartDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE12E0731C22CF7200884641 /* ChartDatasource.swift */; };
+		CEA213E51C21AD3B00260444 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA213E41C21AD3B00260444 /* AppDelegate.swift */; };
+		CEA213E71C21AD3B00260444 /* ChartCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA213E61C21AD3B00260444 /* ChartCollectionViewController.swift */; };
+		CEA213EA1C21AD3B00260444 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA213E81C21AD3B00260444 /* Main.storyboard */; };
+		CEA213EC1C21AD3B00260444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA213EB1C21AD3B00260444 /* Assets.xcassets */; };
+		CEA213EF1C21AD3B00260444 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA213ED1C21AD3B00260444 /* LaunchScreen.storyboard */; };
+		CEA213F71C21AFA000260444 /* ChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA213F61C21AFA000260444 /* ChartCell.swift */; };
+		CEA213FA1C21BF7600260444 /* ShinobiCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA213F91C21BF7600260444 /* ShinobiCharts.framework */; };
+		CEA213FC1C21BF8C00260444 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA213FB1C21BF8C00260444 /* UIKit.framework */; };
+		CEA213FE1C21BF9700260444 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA213FD1C21BF9700260444 /* CoreText.framework */; };
+		CEA214001C21BFB100260444 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA213FF1C21BFB100260444 /* OpenGLES.framework */; };
+		CEA214021C21BFC700260444 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA214011C21BFC700260444 /* CoreGraphics.framework */; };
+		CEA214041C21BFDC00260444 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA214031C21BFDC00260444 /* QuartzCore.framework */; };
+		CEA214061C21BFE900260444 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA214051C21BFE900260444 /* libc++.tbd */; };
+		CEA214081C21BFF500260444 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA214071C21BFF500260444 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0249E58F1C24546300BEB6BB /* DataGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataGenerator.swift; sourceTree = "<group>"; };
+		CE12E0731C22CF7200884641 /* ChartDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartDatasource.swift; sourceTree = "<group>"; };
+		CEA213E11C21AD3B00260444 /* CollectionViewChartSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewChartSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA213E41C21AD3B00260444 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEA213E61C21AD3B00260444 /* ChartCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartCollectionViewController.swift; sourceTree = "<group>"; };
+		CEA213E91C21AD3B00260444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEA213EB1C21AD3B00260444 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA213EE1C21AD3B00260444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEA213F01C21AD3B00260444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA213F61C21AFA000260444 /* ChartCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartCell.swift; sourceTree = "<group>"; };
+		CEA213F91C21BF7600260444 /* ShinobiCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShinobiCharts.framework; sourceTree = "<group>"; };
+		CEA213FB1C21BF8C00260444 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEA213FD1C21BF9700260444 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		CEA213FF1C21BFB100260444 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CEA214011C21BFC700260444 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEA214031C21BFDC00260444 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CEA214051C21BFE900260444 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		CEA214071C21BFF500260444 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA213DE1C21AD3B00260444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA214081C21BFF500260444 /* Security.framework in Frameworks */,
+				CEA214061C21BFE900260444 /* libc++.tbd in Frameworks */,
+				CEA214041C21BFDC00260444 /* QuartzCore.framework in Frameworks */,
+				CEA214021C21BFC700260444 /* CoreGraphics.framework in Frameworks */,
+				CEA214001C21BFB100260444 /* OpenGLES.framework in Frameworks */,
+				CEA213FE1C21BF9700260444 /* CoreText.framework in Frameworks */,
+				CEA213FC1C21BF8C00260444 /* UIKit.framework in Frameworks */,
+				CEA213FA1C21BF7600260444 /* ShinobiCharts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA213D81C21AD3B00260444 = {
+			isa = PBXGroup;
+			children = (
+				CEA213F81C21BF3C00260444 /* Frameworks */,
+				CEA213E31C21AD3B00260444 /* CollectionViewChartSample */,
+				CEA213E21C21AD3B00260444 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA213E21C21AD3B00260444 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA213E11C21AD3B00260444 /* CollectionViewChartSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA213E31C21AD3B00260444 /* CollectionViewChartSample */ = {
+			isa = PBXGroup;
+			children = (
+				CEA213E41C21AD3B00260444 /* AppDelegate.swift */,
+				CEA213E61C21AD3B00260444 /* ChartCollectionViewController.swift */,
+				CEA213E81C21AD3B00260444 /* Main.storyboard */,
+				CEA213EB1C21AD3B00260444 /* Assets.xcassets */,
+				CEA213ED1C21AD3B00260444 /* LaunchScreen.storyboard */,
+				CEA213F01C21AD3B00260444 /* Info.plist */,
+				CEA213F61C21AFA000260444 /* ChartCell.swift */,
+				CE12E0731C22CF7200884641 /* ChartDatasource.swift */,
+				0249E58F1C24546300BEB6BB /* DataGenerator.swift */,
+			);
+			path = CollectionViewChartSample;
+			sourceTree = "<group>";
+		};
+		CEA213F81C21BF3C00260444 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEA214071C21BFF500260444 /* Security.framework */,
+				CEA214051C21BFE900260444 /* libc++.tbd */,
+				CEA214031C21BFDC00260444 /* QuartzCore.framework */,
+				CEA214011C21BFC700260444 /* CoreGraphics.framework */,
+				CEA213FF1C21BFB100260444 /* OpenGLES.framework */,
+				CEA213FD1C21BF9700260444 /* CoreText.framework */,
+				CEA213FB1C21BF8C00260444 /* UIKit.framework */,
+				CEA213F91C21BF7600260444 /* ShinobiCharts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA213E01C21AD3B00260444 /* CollectionViewChartSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA213F31C21AD3B00260444 /* Build configuration list for PBXNativeTarget "CollectionViewChartSample" */;
+			buildPhases = (
+				CEA213DD1C21AD3B00260444 /* Sources */,
+				CEA213DE1C21AD3B00260444 /* Frameworks */,
+				CEA213DF1C21AD3B00260444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollectionViewChartSample;
+			productName = CollectionViewChartSample;
+			productReference = CEA213E11C21AD3B00260444 /* CollectionViewChartSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA213D91C21AD3B00260444 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Matthew Webber";
+				TargetAttributes = {
+					CEA213E01C21AD3B00260444 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8DHMQ8YVW7;
+					};
+				};
+			};
+			buildConfigurationList = CEA213DC1C21AD3B00260444 /* Build configuration list for PBXProject "CollectionViewChartSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA213D81C21AD3B00260444;
+			productRefGroup = CEA213E21C21AD3B00260444 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA213E01C21AD3B00260444 /* CollectionViewChartSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA213DF1C21AD3B00260444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA213EF1C21AD3B00260444 /* LaunchScreen.storyboard in Resources */,
+				CEA213EC1C21AD3B00260444 /* Assets.xcassets in Resources */,
+				CEA213EA1C21AD3B00260444 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA213DD1C21AD3B00260444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA213F71C21AFA000260444 /* ChartCell.swift in Sources */,
+				CE12E0741C22CF7200884641 /* ChartDatasource.swift in Sources */,
+				CEA213E71C21AD3B00260444 /* ChartCollectionViewController.swift in Sources */,
+				CEA213E51C21AD3B00260444 /* AppDelegate.swift in Sources */,
+				0249E5901C24546300BEB6BB /* DataGenerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEA213E81C21AD3B00260444 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA213E91C21AD3B00260444 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEA213ED1C21AD3B00260444 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA213EE1C21AD3B00260444 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA213F11C21AD3B00260444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CEA213F21C21AD3B00260444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA213F41C21AD3B00260444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CollectionViewChartSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mwebber.CollectionViewChartSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShinobiCharts.framework/Headers/ShinobiChart-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEA213F51C21AD3B00260444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CollectionViewChartSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mwebber.CollectionViewChartSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShinobiCharts.framework/Headers/ShinobiChart-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA213DC1C21AD3B00260444 /* Build configuration list for PBXProject "CollectionViewChartSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA213F11C21AD3B00260444 /* Debug */,
+				CEA213F21C21AD3B00260444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA213F31C21AD3B00260444 /* Build configuration list for PBXNativeTarget "CollectionViewChartSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA213F41C21AD3B00260444 /* Debug */,
+				CEA213F51C21AD3B00260444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA213D91C21AD3B00260444 /* Project object */;
+}
