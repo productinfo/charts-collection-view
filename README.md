@@ -10,9 +10,9 @@ Building the project
 
 In order to build this project you'll need a copy of ShinobiCharts. If you don't have it yet, you can download a free trial from the [ShinobiCharts website](http://www.shinobicontrols.com/ios/shinobicharts).
 
-If you're using the trial version you'll need to add your license key. To do so, open up ViewController.m and edit the following line in `viewDidLoad`:
+If you're using the trial version you'll need to add your trial key. To do so, open up ViewController.m and edit the following line in `viewDidLoad`:
 
-    ShinobiCharts.setLicenseKey("") //Trial Users - Set your licence key here
+    ShinobiCharts.setTrialKey("") //Trial Users - Set your trial key here
 
 Contributing
 ------------
